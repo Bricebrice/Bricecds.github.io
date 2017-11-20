@@ -1,0 +1,12 @@
+.sobremi{
+    margin-bottom: 2.8rem;
+    &__image{
+        display: inherit;
+        height: 9rem;
+        width: 9rem;
+        margin: 0;
+        border-radius: 10rem;
+        -webkit-border-radius: 10rem;
+        -moz-border-radius: 10rem;
+    }
+}

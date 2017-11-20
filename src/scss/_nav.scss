@@ -1,0 +1,48 @@
+.topnav{
+    height: 5.7rem;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-bottom: solid 0.1rem #eaeaea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.logo{
+    position: absolute;
+    top: 1.4rem;
+    left: 1.5rem;
+}
+.toggle{
+    display: inline-block;
+    position: absolute;
+    top: 0.9rem;
+    right: 0.9rem;
+    background: #f9f9f9;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    text-align: center;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    &--nav{
+        display: inline-block;
+        margin: 1rem 0;
+    }
+}
+.toggle--vert{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+.bar{
+    display: block;
+    vertical-align: middle;
+    height: 0.3rem;
+    width: 2rem;
+    background: black;
+    margin-bottom: 0.5rem;
+}

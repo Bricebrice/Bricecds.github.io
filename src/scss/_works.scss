@@ -1,0 +1,50 @@
+.works{
+    background: #F5F5F5;
+    background: -webkit-radial-gradient(#FFFFFF, #F5F5F5);
+    background: -o-radial-gradient(#FFFFFF, #F5F5F5);
+    background: -moz-radial-gradient(#FFFFFF, #F5F5F5);
+    padding: 4.2rem 0 7rem;
+    &--title{
+        margin: 0 1.5rem 4.2rem;
+        text-align: left;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.6rem;
+        color: #4A4A4A;
+    }
+}
+.work{
+    background-image: url(../images/genuinus_intro_mobile.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 30.8rem;
+    margin: 0;
+    -webkit-box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
+    box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
+}
+.work__description{
+    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    padding: 3.5rem 2.5rem;
+    p{
+        font-style: italic;
+    }
+}
+
+/*.opacity{
+    &:before {
+    	content: "";
+    	width: 100%;
+    	height: 100%;
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+    	background-color: rgba(255, 255, 255, 0.15);
+    	z-index: 9;
+			}
+}
+*/
