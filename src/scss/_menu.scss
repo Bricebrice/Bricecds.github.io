@@ -1,5 +1,5 @@
 .menu{
-    display: block;
+    display: block; /*si pongo display none en vez de block, no sale el efecto de "arrastre"*/
     position: fixed;
     top: 0;
     left: 0;
@@ -14,6 +14,7 @@
     -o-transform: translateY(-100%);
     transform: translateY(-100%);
     &--show{
+        /*display: block;*/
         -webkit-transform: translateY(0%);
         -moz-transform: translateY(0%);
         -ms-transform: translateY(0%);

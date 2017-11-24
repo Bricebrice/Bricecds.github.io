@@ -1,13 +1,21 @@
-html{ font-size: 62.5%;
+html{
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
     @media screen and (min-width: 900px) {
         font-size: 16px;
     }
 }
 body{
-    font-size: 14px; font-size: 1.4rem; /* =16px */
+    font-size: 14px; font-size: 1.4rem; /* =14px */
     margin: 0;
     -webkit-font-smoothing:antialiased !important;
     /*text-rendering: optimizeLegibility;*/
+}
+@media screen and (min-width: 768px) {
+    body{
+font-size: 16px; font-size: 1.6rem; /* =14px */
+    }
 }
 img {
     max-width: 100%;
@@ -21,9 +29,28 @@ img {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+a:focus,
+button:focus,
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline:none;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: #000;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -53,4 +80,44 @@ h3{
     font-weight: 900;
     color: #3D3B40;
     margin: 0 0 1.4rem 0;
+}
+h4{
+    font-size: 18px; font-size: 1.8rem;
+    font-family: 'Arial', serif;
+    text-transform: uppercase;
+    color: #0AC299;
+    margin: 0 0 1.4rem 0;
+}
+@media screen and (min-width: 768px) {
+    p{
+        font-family: 'Open Sans', sans-serif;
+        line-height: 3rem;
+        margin: 0;
+        letter-spacing: 0.025rem;
+    }
+    h1{
+        font-size: 38px; font-size: 3.8rem;
+        font-family: 'Arial Black', serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #3D3B40;
+        line-height: 6rem;
+        margin: 0 0 3rem 0;
+    }
+    h2{
+        font-size: 32px; font-size: 3.2rem;
+        font-family: 'Arial Black', serif;
+        font-weight: 900;
+        color: #3D3B40;
+        margin: 0 0 1.5rem 0;
+    }
+    h3{
+        font-size: 2.8rem;
+        line-height: 4rem;
+        margin: 0 0 1.5rem 0;
+    }
+    h4{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
 }

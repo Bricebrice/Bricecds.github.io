@@ -8,10 +8,20 @@
     left: 0;
     z-index: 9999;
 }
+@media screen and (min-width: 768px) {
+    .topnav{
+        padding: 0 6rem;
+    }
+}
 .logo{
     position: absolute;
     top: 1.4rem;
     left: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+    .logo{
+        left: 6rem;
+    }
 }
 .toggle{
     display: inline-block;
@@ -45,4 +55,55 @@
     width: 2rem;
     background: black;
     margin-bottom: 0.5rem;
+}
+.background{
+    height: 100%;
+    background: #F5F5F5;
+    background: -webkit-radial-gradient(#FFFFFF, #F5F5F5);
+    background: -o-radial-gradient(#FFFFFF, #F5F5F5);
+    background: -moz-radial-gradient(#FFFFFF, #F5F5F5);
+    border-bottom: 1px solid #ffffff;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 100%;
+    &__list {
+        width: 100%;
+        padding: 1.9rem 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    &__item {
+        color: black;
+        font-family: 'Arial', sans-serif;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        margin: 0 2.4rem;
+        padding: 0;
+        cursor: pointer;
+        &:hover {
+            //font-weight: 900;
+            color: #0AC299;
+        }
+        &:active {
+            //font-weight: 900;
+            color: #0AC299;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .navigation{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .navigation{
+        text-align: right;
+    }
+    .toggle{
+        display: none;
+    }
 }

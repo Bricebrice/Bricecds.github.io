@@ -1,0 +1,80 @@
+.work{
+    background-image: url(../images/genuinus_intro_mobile.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /*height: 30.8rem;*/
+    margin: 0;
+    -webkit-box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
+    box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
+    &__description{
+        background: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        padding: 3.5rem 3rem;
+        p{
+            font-style: italic;
+        }
+        &--red p{
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 900;
+            color: black;
+            padding: 1.4rem 0;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .work{
+        background-image: url(../images/genuinus_intro_mobile.png); //tablet!!//
+        margin: 0 6rem;
+        &__description{
+            padding: 3.5rem 30rem 3.5rem 3rem;
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+.case{
+    margin: 0 0 2.8rem;
+    p{
+        margin: 0 0 1.4rem;
+    }
+    &--background{
+        margin: 0 1.5rem;
+        padding: 4.2rem 1.5rem;
+        background: #ffffff;
+    }
+    &--image{
+        background-color: grey;
+        background-position: center;
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 0.1rem 0.2rem 0;
+        position: relative;
+        height: 21rem;
+        &--01{
+            background-image: url(../images/01_webantigua_mobile.png);
+        }
+        &--02{
+            background-image: url(../images/02_encuestas_mobile.png);
+        }
+        &--03{
+            background-image: url(../images/03_encuesta_mobile.png);
+        }
+        &--03a{
+            background-image: url(../images/03_prototipos_mobile.png);
+        }
+        &--04{
+            background-image: url(../images/04_sketch_mobile.png);
+        }
+        &--05{
+            background-image: url(../images/05_equipo_mobile.png);
+        }
+    }
+    &--legend{
+        font-size: 1.2rem;
+        font-family: 'Open Sans', sans-serif;
+        color: grey;
+    }
+}

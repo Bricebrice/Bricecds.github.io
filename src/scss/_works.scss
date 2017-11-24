@@ -12,24 +12,19 @@
         font-size: 1.6rem;
         color: #4A4A4A;
     }
+    &--header{
+        padding: 5.7rem 0 2.8rem;
+    }
 }
-.work{
-    background-image: url(../images/genuinus_intro_mobile.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 30.8rem;
-    margin: 0;
-    -webkit-box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
-    -moz-box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
-    box-shadow: 0 0rem 2rem -0.5rem rgba(0,0,0,0.5);
-}
-.work__description{
-    background: rgba(255, 255, 255, 0.7);
-    height: 100%;
-    padding: 3.5rem 2.5rem;
-    p{
-        font-style: italic;
+@media screen and (min-width: 768px) {
+    .works{
+        padding: 4.9rem 0 7rem;
+        &--title{
+            margin: 0 6rem 4.9rem;
+            p{
+            font-size: 1.8rem;
+            }
+        }
     }
 }
 

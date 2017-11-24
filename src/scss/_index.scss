@@ -4,10 +4,29 @@
         text-align: left;
     }
     &--sobremi{
-    padding: 4.2rem 1.5rem;
+        padding: 4.2rem 1.5rem;
     }
     p{
         margin-bottom: 4.2rem;
         font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header{
+        padding: 11.2rem 6rem 4.9rem;
+        &--title{
+            text-align: left;
+            br{
+                display: none;
+            }
+        }
+        &--sobremi{
+            padding: 4.9rem 6rem;
+        }
+        p{
+            margin-bottom: 3rem;
+            font-size: 1.8rem;
+            width: 80%;
+        }
     }
 }

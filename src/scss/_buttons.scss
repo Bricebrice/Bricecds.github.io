@@ -33,6 +33,14 @@
         }
     }
 }
+@media screen and (min-width: 768px) {
+    .button{
+        margin: 3rem 0;
+        &--secondary{
+            font-size: 1.4rem;
+        }
+    }    
+}
 .down-arrow{
     display: block;
     margin: 7rem auto 2.8rem;
@@ -63,6 +71,15 @@
         bottom: 0;
         margin: 0 0 2.1rem;
         width: 2.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .line--hr{
+        border-bottom: solid 0.5rem #3D3B40;
+        content: "";
+        bottom: 0;
+        margin: 0 0 2.8rem;
+        width: 3rem;
     }
 }
 .descargar{
