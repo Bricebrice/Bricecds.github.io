@@ -29,6 +29,16 @@
     background-size: cover;
     background-position: center;
 }
+@media screen and (min-width: 768px) {
+    .slides li:nth-child(1) {
+        background-image: url(../images/06aa_results_tablet.png);
+    }
+}
+@media screen and (min-width: 992px) {
+    .slides li:nth-child(1) {
+        background-image: url(../images/06aa_results_desktop.png);
+    }
+}
 .slides li:nth-child(2) {
     background-image: url(../images/06c_results_mobile.png);
     background-color: grey;
@@ -38,6 +48,16 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
+}
+@media screen and (min-width: 768px) {
+    .slides li:nth-child(2) {
+        background-image: url(../images/06c_results_tablet.png);
+    }
+}
+@media screen and (min-width: 992px) {
+    .slides li:nth-child(2) {
+        background-image: url(../images/06c_results_desktop.png);
+    }
 }
 .slides li:nth-child(3) {
     background-image: url(../images/06a_results_mobile.png);
@@ -49,6 +69,16 @@
     background-size: cover;
     background-position: center;
 }
+@media screen and (min-width: 768px) {
+    .slides li:nth-child(3) {
+        background-image: url(../images/06a_results_tablet.png);
+    }
+}
+@media screen and (min-width: 992px) {
+    .slides li:nth-child(3) {
+        background-image: url(../images/06a_results_desktop.png);
+    }
+}
 .slides li:nth-child(4) {
     background-image: url(../images/06b_results_mobile.png);
     background-color: whitesmoke;
@@ -59,6 +89,16 @@
     background-size: cover;
     background-position: center;
 }
+@media screen and (min-width: 768px) {
+    .slides li:nth-child(4) {
+        background-image: url(../images/06b_results_tablet.png);
+    }
+}
+@media screen and (min-width: 992px) {
+    .slides li:nth-child(4) {
+        background-image: url(../images/06b_results_desktop.png);
+    }
+}
 .slides li:nth-child(5) {
     background-image: url(../images/06_results_mobile.png);
     background-color: whitesmoke;
@@ -68,6 +108,16 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
+}
+@media screen and (min-width: 768px) {
+    .slides li:nth-child(5) {
+        background-image: url(../images/06_results_tablet.png);
+    }
+}
+@media screen and (min-width: 992px) {
+    .slides li:nth-child(5) {
+        background-image: url(../images/06_results_desktop.png);
+    }
 }
 .prev,
 .next {
@@ -126,3 +176,8 @@
     background-color: #8B898C;
 }
 // fin slider
+@media screen and (min-width: 768px) {
+    .slideshow{
+        height: 35rem;
+    }
+}

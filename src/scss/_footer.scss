@@ -8,6 +8,11 @@
         padding: 4.9rem 6rem 0;
     }
 }
+@media screen and (min-width: 992px) {
+    .contact{
+        padding: 2.8rem 17rem 0;
+    }
+}
 @media screen and (min-width: 768px) {
     .flexbox{
         &__footer{
@@ -39,8 +44,7 @@
 }
 .mail{
     position: relative;
-    margin-bottom: 2.1rem;
-    color: #3D3B40;
+    margin-bottom: 2.1rem;;
     &--text{
         position: absolute;
         text-decoration: underline;
@@ -51,7 +55,6 @@
 .location{
     position: relative;
     margin: 0 0 2.1rem 0.4rem;
-    color: #3D3B40;
     &--text{
         position: absolute;
         top: -0.4rem;

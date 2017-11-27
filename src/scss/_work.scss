@@ -36,6 +36,19 @@
         }
     }
 }
+@media screen and (min-width: 992px) {
+    .work{
+        background-image: url(../images/genuinus_intro_mobile.png); //desktop!!//
+        margin: 0 17rem;
+        &__description{
+            padding: 3.5rem;
+            width: 40%;
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
 .case{
     margin: 0 0 2.8rem;
     p{
@@ -76,5 +89,80 @@
         font-size: 1.2rem;
         font-family: 'Open Sans', sans-serif;
         color: grey;
+    }
+}
+@media screen and (min-width: 768px) {
+    .case{
+        margin: 0 0 3rem;
+        p{
+            margin: 0 0 1.5rem;
+        }
+        &--background{
+            margin: 0 6rem;
+            padding: 4.9rem 3rem;
+            background: #ffffff;
+        }
+        &--image{
+            height: 35rem;
+            &--01{
+                background-image: url(../images/01_webantigua_tablet.png);
+            }
+            &--02{
+                background-image: url(../images/02_encuestas_tablet.png);
+            }
+            &--03{
+                background-image: url(../images/03_encuesta_tablet.png);
+            }
+            &--03a{
+                background-image: url(../images/03_prototipos_tablet.png);
+            }
+            &--04{
+                background-image: url(../images/04_sketch_tablet.png);
+            }
+            &--05{
+                background-image: url(../images/05_equipo_tablet.png);
+            }
+        }
+        &--legend{
+            font-size: 1.4rem;
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .case{
+        margin: 0 0 3rem;
+        p{
+            margin: 0 0 1.5rem;
+        }
+        &--background{
+            margin: 0 17rem;
+            padding: 4.9rem 17rem;
+            background: #ffffff;
+        }
+        &--image{
+            height: 35rem;
+            &--01{
+                background-image: url(../images/01_webantigua_desktop.png);
+            }
+            &--02{
+                background-image: url(../images/02_encuestas_desktop.png);
+            }
+            &--03{
+                background-image: url(../images/03_encuesta_desktop.png);
+            }
+            &--03a{
+                background-image: url(../images/03_prototipos_desktop.png);
+            }
+            &--04{
+                background-image: url(../images/04_sketch_desktop.png);
+            }
+            &--05{
+                background-image: url(../images/05_equipo_desktop.png);
+            }
+        }
+    }
+    .description__header{
+        padding: 10rem 17rem;
+        width: inherit;
     }
 }

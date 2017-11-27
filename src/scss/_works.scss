@@ -18,9 +18,19 @@
 }
 @media screen and (min-width: 768px) {
     .works{
-        padding: 4.9rem 0 7rem;
+        padding: 5.8rem 0 7rem;
         &--title{
             margin: 0 6rem 4.9rem;
+            p{
+            font-size: 1.8rem;
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .works{
+        &--title{
+            margin: 0 17rem 4.9rem;
             p{
             font-size: 1.8rem;
             }
