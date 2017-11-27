@@ -1,5 +1,9 @@
 $('.button').on('click', function(event){
       event.preventDefault();
+      $('html, body').stop().animate({scrollTop: $('.header--sobremi').offset().top-57}, 900);
+});
+$('.down').on('click', function(event){
+      event.preventDefault();
       $('html, body').stop().animate({scrollTop: $('.works').offset().top-57}, 900);
 });
 

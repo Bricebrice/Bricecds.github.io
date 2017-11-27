@@ -19,6 +19,9 @@
 @media screen and (min-width: 768px) {
     .works{
         padding: 5.8rem 0 7rem;
+        a{
+            display: inline-block;
+        }
         &--title{
             margin: 0 6rem 4.9rem;
             p{

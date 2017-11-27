@@ -7,7 +7,6 @@
     padding: 0.9rem;
     text-align: center;
     display: block;
-    border: none;
     width: 15.3rem;
     cursor: pointer;
     a{
@@ -42,17 +41,33 @@
         }
     }
 }
-.down-arrow{
-    display: block;
-    margin: 7rem auto 2.8rem;
-}
-@media screen and (min-width: 768px) {
-    .down-arrow {
+.down{
+    text-align: center;
+    margin: 2.8rem auto 0;
+    display: inline-block;
+    width: 100%;
+    a{
+        display: inline-block;
+    }
+    p{
+        font-size: 1.2rem;
+        color: #0AC299;
+    }
+    &--arrow{
         display: block;
-        margin: 10.8rem auto 0rem;
+        margin: 0 auto;
     }
 }
-
+@media screen and (min-width: 768px) {
+    .down{
+        margin: 6rem auto 0;
+    }
+}
+@media screen and (min-width: 992px) {
+    .down{
+        margin: 12rem auto 0;
+    }
+}
 .line--hr{
     border-bottom: solid 0.4rem #3D3B40;
     content: "";
