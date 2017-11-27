@@ -7,7 +7,8 @@
     "css": "node-sass -o dist/css src/scss --output-style compressed --source-map-embed",
     "watch:css": "onchange src/scss/*.scss -- npm run css",
     "serve": "browser-sync start --server dist --files dist",
-    "dev": "parallelshell 'npm run watch:css' 'npm run serve'"
+    "dev": "parallelshell 'npm run watch:css' 'npm run serve'",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/Bricebrice/brice_personal_web#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "gh-pages": "^1.1.0",
     "node-sass": "^4.6.1",
     "onchange": "^3.2.1",
     "parallelshell": "^3.0.2"
