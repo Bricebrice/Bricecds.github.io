@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 768px) {
     .work{
-        background-image: url(../images/genuinus_intro_mobile.png); //tablet!!//
+        background-image: url(../images/genuinus_intro_tablet.png);
         margin: 0 6rem;
         &__description{
             padding: 3.5rem 30rem 3.5rem 3rem;
@@ -38,7 +38,7 @@
 }
 @media screen and (min-width: 992px) {
     .work{
-        background-image: url(../images/genuinus_intro_mobile.png); //desktop!!//
+        background-image: url(../images/genuinus_intro_desktop.png);
         margin: 0 17rem;
         &__description{
             padding: 3.5rem;

@@ -32,6 +32,9 @@
 }
 @media screen and (min-width: 992px) {
     .works{
+        a{
+            display: inherit;
+        }
         &--title{
             margin: 0 17rem 4.9rem;
             p{
