@@ -42,8 +42,8 @@
     }
 }
 .down{
+    padding: 2.8rem;
     text-align: center;
-    margin: 2.8rem auto 0;
     display: inline-block;
     width: 100%;
     a{
@@ -61,6 +61,7 @@
 @media screen and (min-width: 768px) {
     .down{
         margin: 6rem auto 0;
+        padding: 0;
     }
 }
 @media screen and (min-width: 992px) {
