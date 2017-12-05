@@ -16,7 +16,7 @@
 
     <link href="/images/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
     <link href="/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-    <link href="/images/favicon-96x96.png" rel="icon" type="image/png" sizes="96x96"> 
+    <link href="/images/favicon-96x96.png" rel="icon" type="image/png" sizes="96x96">
 
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
@@ -39,15 +39,15 @@
     </div>
     <nav class="navigation">
         <div class="clearfix navigation__list">
-            <a href="sobre-mi.html">
-                <button class="navigation__item menu--item--sobremi">Sobre mí</button>
-            </a>
-            <a href="trabajos.html">
-                <button class="navigation__item menu--item--proyectos">Proyectos</button>
-            </a>
-            <a href="contacto.html">
-                <button class="navigation__item menu--item--contacto">Contacto</button>
-            </a>
+            <button class="navigation__item menu--item--sobremi">
+                <a href="sobre-mi.html">Sobre mí</a>
+            </button>
+            <button class="navigation__item menu--item--proyectos">
+                <a href="trabajos.html">Proyectos</a>
+            </button>
+            <button class="navigation__item menu--item--contacto">
+                <a href="contacto.html">Contacto</a>
+            </button>
         </div>
     </nav>
 </header>
@@ -101,8 +101,8 @@
             <div class="works--title">
                 <p><strong>— Último proyecto</strong></p>
             </div>
-            <a href="genuinus-case-study.html">
                 <div class="work">
+                    <a href="genuinus-case-study.html">
                     <div class="work__description">
                         <h2>Genuinus</h2>
                         <div class="line--hr--secondary"></div>
@@ -114,11 +114,12 @@
                             Ver caso de estudio
                         </div>
                     </div>
+                </a>
                 </div>
-            </a>
         </div>
     <!-- END WORKS -->
     <!-- SOBRE MI -->
+    <a name="sobremi"></a>
     <div class="header--sobremi">
         <div class="sobremi">
             <h3>Sobre mí</h3>
@@ -140,6 +141,64 @@
         <img class="sobremi__image" src="images/brice_mobile.png" alt="Brice picture">
     </div>
     <!-- END SOBRE MI -->
+    <!-- SKILLS -->
+    <div class="skills">
+        <div class="skills--title">
+            <p><strong>— Skills</strong></p>
+        </div>
+        <div class="skills-list">
+            <ul class="skills--general">
+                <li class="">
+                    User interface
+                </li>
+                <li class="">
+                    User Experience
+                </li>
+                <li class="">
+                    Atomic Design
+                </li>
+                <li class="">
+                    Metodología Agile
+                </li>
+            </ul>
+            <ul class="skills--software">
+                <li class="">
+                    Adobe CC
+                </li>
+                <li class="">
+                    Sketch
+                </li>
+                <li class="">
+                    Invision
+                </li>
+                <li class="">
+                    HTML / CSS / SASS / Javascript
+                </li>
+                <li class="">
+                    Gulp / NPM
+                </li>
+                <li class="">
+                    Git
+                </li>
+            </ul>
+            <ul class="skills--languages">
+                <li class="">
+                    Español - Nivel avanzado
+                </li>
+                <li class="">
+                    Inglés - Nivel intermediario
+                </li>
+                <li class="">
+                    Francés - Nativo
+                </li>
+                <li class="">
+                    Portugués - Nativo
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- END SKILLS -->
 <!-- END CONTENT HOME -->
 <!-- FOOTER -->
 <footer class="footer">

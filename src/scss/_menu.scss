@@ -50,3 +50,8 @@
     color: #ff7f00;
     }
 }
+@media screen and (min-width: 768px) {
+    .menu{
+        display: none;
+    }
+}

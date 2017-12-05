@@ -53,9 +53,12 @@ button{
     border: none;
 }
 @font-face {
-    font-family:'Arial Black';
-    src: local('arial-black.ttf');
-    src: url(arial-black.ttf);
+    font-family: 'arial_black';
+    src: url('../fonts/arial-black-webfont.woff2') format('woff2'),
+         url('../fonts/arial-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -65,7 +68,7 @@ p{
 }
 h1{
     font-size: 38px; font-size: 3.8rem;
-    font-family: 'Arial Black', 'Arial Bold', sans-serif;
+    font-family: 'arial_black', 'Arial Bold', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     /* color: #3D3B40; */
@@ -84,14 +87,14 @@ h1{
 }
 h2{
     font-size: 28px; font-size: 2.8rem;
-    font-family: 'Arial Black', 'Arial Bold', sans-serif;
+    font-family: 'arial_black', 'Arial Bold', sans-serif;
     font-weight: 900;
     color: #3D3B40;
     margin: 0 0 1.4rem 0;
 }
 h3{
     font-size: 24px; font-size: 2.4rem;
-    font-family: 'Arial Black', 'Arial Bold', sans-serif;
+    font-family: 'arial_black', 'Arial Bold', sans-serif;
     font-weight: 900;
     color: #3D3B40;
     margin: 0 0 1.4rem 0;
