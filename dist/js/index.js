@@ -37,7 +37,7 @@ $('.menu--item--contacto').on('click', function(event){
       conmutarMenu(true);
 });
 
-$(document).ready(function() {
+/* $(document).ready(function() {
     $('#slide-1').show();
     $('#nav-1').addClass('active-cd');
 
@@ -99,3 +99,4 @@ $(document).ready(function() {
             }
         });
 });
+*/
