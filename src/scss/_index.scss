@@ -1,5 +1,5 @@
 .header{
-    height: 100vh;
+    height: 100%;
     padding: 10.4rem 1.5rem 4.2rem;
     &--title{
         text-align: left;
@@ -8,7 +8,7 @@
         padding: 4.2rem 1.5rem;
     }
     &--text{
-        margin-bottom: 4.2rem;
+        margin-bottom: 2.8rem;
         font-size: 1.6rem;
         p{
             line-height: 4rem;
