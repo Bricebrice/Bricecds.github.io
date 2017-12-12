@@ -16,7 +16,7 @@
 
     <link href="/images/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
     <link href="/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-    <link href="/images/favicon-96x96.png" rel="icon" type="image/png" sizes="96x96"> 
+    <link href="/images/favicon-96x96.png" rel="icon" type="image/png" sizes="96x96">
 
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
@@ -39,15 +39,15 @@
     </div>
     <nav class="navigation">
         <div class="clearfix navigation__list">
-            <a href="sobre-mi.html">
-                <button class="navigation__item menu--item--sobremi">Sobre mí</button>
-            </a>
-            <a href="trabajos.html">
-                <button class="navigation__item menu--item--proyectos">Proyectos</button>
-            </a>
-            <a href="contacto.html">
-                <button class="navigation__item menu--item--contacto">Contacto</button>
-            </a>
+            <button class="navigation__item menu--item--sobremi">
+                <a href="index.html#aboutme">Sobre mí</a>
+            </button>
+            <button class="navigation__item menu--item--proyectos">
+                <a href="index.html#projects">Proyectos</a>
+            </button>
+            <button class="navigation__item menu--item--contacto">
+                <a href="index.html#aboutme">Contacto</a>
+            </button>
         </div>
     </nav>
 </header>
@@ -56,21 +56,21 @@
 <div class="menu">
     <div class="menu--content">
         <ul class="menu--list">
-            <li class="menu--item menu--item--sobremi">
-                <a href="sobre-mi.html">
+            <a href="index.html#aboutme">
+                <li class="menu--item menu--item--sobremi">
                     <p>Sobre mí</p>
-                </a>
-            </li>
-            <li class="menu--item menu--item--proyectos">
-                <a href="proyectos.html">
+                </li>
+            </a>
+            <a href="index.html#projects">
+                <li class="menu--item menu--item--proyectos">
                     <p>Proyectos</p>
-                </a>
-            </li>
-            <li class="menu--item menu--item--contacto">
-                <a href="contacto.html">
+                </li>
+            </a>
+            <a href="index.html#aboutme">
+                <li class="menu--item menu--item--contacto">
                     <p>Contacto</p>
-                </a>
-            </li>
+                </li>
+            </a>
         </ul>
     </div>
 </div>
@@ -97,12 +97,13 @@
         </div>
     <!-- END HEADER -->
     <!-- WORKS -->
+    <section id="projects">
         <div class="works">
             <div class="works--title">
                 <p><strong>— Último proyecto</strong></p>
             </div>
-            <a href="genuinus-case-study.html">
                 <div class="work">
+                    <a href="genuinus-case-study.html">
                     <div class="work__description">
                         <h2>Genuinus</h2>
                         <div class="line--hr--secondary"></div>
@@ -114,32 +115,99 @@
                             Ver caso de estudio
                         </div>
                     </div>
+                </a>
                 </div>
-            </a>
         </div>
+    </section>
     <!-- END WORKS -->
     <!-- SOBRE MI -->
-    <div class="header--sobremi">
-        <div class="sobremi">
-            <h3>Sobre mí</h3>
-            <div class="line--hr--footer"></div>
-            <p>
-                Franco-brasileño criado en Madrid, estudié Diseño Gráfico en Bruselas y un Máster en Diseño Web en Barcelona.
-            </p>
-            <p>
-                Motivado en mejorar la experiencia de los usuarios, mi objetivo es crear diseños consistentes y atractivos que aporten valor a su negocio.
-            </p>
-            <p>
-                También me intereso por las diferentes culturas, el arte y las nuevas tecnologías aplicadas a la web.
-            </p>
-            <p>
-                <strong>¿Trabajamos juntos?</strong></br> Escríbeme, <a href="mailto:cabioch.brice@gmail.com" class="mailto" target="_top">cabioch.brice@gmail.com</a>
-            </p>
-            <a href="/files/CV-BriceC.DaSilva.pdf" class="descargar" download>Descarga mi Curriculum Vitae.</a>
+    <section id="aboutme">
+        <div class="header--sobremi">
+            <div class="sobremi">
+                <h3>Sobre mí</h3>
+                <div class="line--hr--footer"></div>
+                <p>
+                    Franco-brasileño criado en Madrid, estudié Diseño Gráfico en Bruselas y un Máster en Diseño Web en Barcelona.
+                </p>
+                <p>
+                    Motivado en mejorar la experiencia de los usuarios, mi objetivo es crear diseños consistentes y atractivos que aporten valor a su negocio.
+                </p>
+                <p>
+                    También me intereso por las diferentes culturas, el arte y las nuevas tecnologías aplicadas a la web.
+                </p>
+                <p>
+                    <strong>¿Trabajamos juntos?</strong></br> Escríbeme, <a href="mailto:cabioch.brice@gmail.com" class="mailto" target="_top">cabioch.brice@gmail.com</a>
+                </p>
+                <a href="/files/CV-Brice-C-Da-Silva.pdf" class="descargar" download>Descarga mi Curriculum Vitae (82kb).</a>
+            </div>
+            <img class="sobremi__image" src="images/brice_mobile.png" alt="Brice picture">
         </div>
-        <img class="sobremi__image" src="images/brice_mobile.png" alt="Brice picture">
-    </div>
+    </section>
     <!-- END SOBRE MI -->
+    <!-- SKILLS -->
+    <div class="skills">
+        <div class="skills--title">
+            <p><strong>— Skills</strong></p>
+        </div>
+        <div class="skills-list flexbox__skills">
+            <ul class="skills--general flexbox__skills--item">
+                <p><strong>Diseño</strong></p>
+                <li class="">
+                    <p>• User Interface</p>
+                </li>
+                <li class="">
+                    <p>• User Experience</p>
+                </li>
+                <li class="">
+                    <p>• Atomic Design</p>
+                </li>
+                <li class="">
+                    <p>• Metodología Agile</p>
+                </li>
+            </ul>
+            <ul class="skills--software flexbox__skills--item">
+                <p><strong>Herramientas</strong></p>
+                <li class="">
+                    <p>• Adobe CC</p>
+                </li>
+                <li class="">
+                    <p>• Sketch</p>
+                </li>
+                <li class="">
+                    <p>• Invision</p>
+                </li>
+                <li class="">
+                    <p>• HTML5 / CSS3 / SASS</p>
+                </li>
+                <li class="">
+                    <p>• Javascript</p>
+                </li>
+                <li class="">
+                    <p>• Gulp / NPM</p>
+                </li>
+                <li class="">
+                    <p>• Git</p>
+                </li>
+            </ul>
+            <ul class="skills--languages flexbox__skills--item">
+                <p><strong>Idiomas</strong></p>
+                <li class="">
+                    <p>• Español - <i>Nivel avanzado</i></p>
+                </li>
+                <li class="">
+                    <p>• Inglés - <i>Nivel intermediario</i></p>
+                </li>
+                <li class="">
+                    <p>• Francés - <i>Nativo</i></p>
+                </li>
+                <li class="">
+                    <p>• Portugués - <i>Nativo</i></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- END SKILLS -->
 <!-- END CONTENT HOME -->
 <!-- FOOTER -->
 <footer class="footer">
