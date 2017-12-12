@@ -1,10 +1,7 @@
 .skills{
-    background: #F5F5F5;
-    background: -webkit-radial-gradient(#FFFFFF, #F5F5F5);
-    background: -o-radial-gradient(#FFFFFF, #F5F5F5);
-    background: -moz-radial-gradient(#FFFFFF, #F5F5F5);
-    padding: 4.2rem 0 7rem;
+    padding: 0;
     &--title{
+        margin: 0 1.5rem 2.8rem;
         text-align: left;
         font-style: italic;
         font-weight: 700;
@@ -15,5 +12,47 @@
         list-style: none;
         margin: 0 1.5rem 2.8rem;
         padding: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .skills{
+        padding: 0 6rem 0;
+        &--title{
+            margin: 0 0 2.8rem;
+            font-size: 1.8rem;
+        }
+        ul{
+            list-style: none;
+            margin: 0 0 2.8rem;
+            padding: 0;
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .skills{
+        padding: 0 17rem 2.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .flexbox{
+        &__skills{
+            list-style: none;
+
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+
+            -webkit-align-items: flex-end; /* Safari */
+            align-items: stretch;
+            justify-content: space-around;
+
+        }
+        &__skills--item{
+            width: 33%;
+            align-items: stretch;
+        }
     }
 }

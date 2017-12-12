@@ -40,13 +40,13 @@
     <nav class="navigation">
         <div class="clearfix navigation__list">
             <button class="navigation__item menu--item--sobremi">
-                <a href="sobre-mi.html">Sobre mí</a>
+                <a href="index.html#aboutme">Sobre mí</a>
             </button>
             <button class="navigation__item menu--item--proyectos">
-                <a href="trabajos.html">Proyectos</a>
+                <a href="index.html#projects">Proyectos</a>
             </button>
             <button class="navigation__item menu--item--contacto">
-                <a href="contacto.html">Contacto</a>
+                <a href="index.html#aboutme">Contacto</a>
             </button>
         </div>
     </nav>
@@ -56,21 +56,21 @@
 <div class="menu">
     <div class="menu--content">
         <ul class="menu--list">
-            <li class="menu--item menu--item--sobremi">
-                <a href="sobre-mi.html">
+            <a href="index.html#aboutme">
+                <li class="menu--item menu--item--sobremi">
                     <p>Sobre mí</p>
-                </a>
-            </li>
-            <li class="menu--item menu--item--proyectos">
-                <a href="proyectos.html">
+                </li>
+            </a>
+            <a href="index.html#projects">
+                <li class="menu--item menu--item--proyectos">
                     <p>Proyectos</p>
-                </a>
-            </li>
-            <li class="menu--item menu--item--contacto">
-                <a href="contacto.html">
+                </li>
+            </a>
+            <a href="index.html#aboutme">
+                <li class="menu--item menu--item--contacto">
                     <p>Contacto</p>
-                </a>
-            </li>
+                </li>
+            </a>
         </ul>
     </div>
 </div>
@@ -97,6 +97,7 @@
         </div>
     <!-- END HEADER -->
     <!-- WORKS -->
+    <section id="projects">
         <div class="works">
             <div class="works--title">
                 <p><strong>— Último proyecto</strong></p>
@@ -117,82 +118,90 @@
                 </a>
                 </div>
         </div>
+    </section>
     <!-- END WORKS -->
     <!-- SOBRE MI -->
-    <a name="sobremi"></a>
-    <div class="header--sobremi">
-        <div class="sobremi">
-            <h3>Sobre mí</h3>
-            <div class="line--hr--footer"></div>
-            <p>
-                Franco-brasileño criado en Madrid, estudié Diseño Gráfico en Bruselas y un Máster en Diseño Web en Barcelona.
-            </p>
-            <p>
-                Motivado en mejorar la experiencia de los usuarios, mi objetivo es crear diseños consistentes y atractivos que aporten valor a su negocio.
-            </p>
-            <p>
-                También me intereso por las diferentes culturas, el arte y las nuevas tecnologías aplicadas a la web.
-            </p>
-            <p>
-                <strong>¿Trabajamos juntos?</strong></br> Escríbeme, <a href="mailto:cabioch.brice@gmail.com" class="mailto" target="_top">cabioch.brice@gmail.com</a>
-            </p>
-            <a href="/files/CV-BriceC.DaSilva.pdf" class="descargar" download>Descarga mi Curriculum Vitae.</a>
+    <section id="aboutme">
+        <div class="header--sobremi">
+            <div class="sobremi">
+                <h3>Sobre mí</h3>
+                <div class="line--hr--footer"></div>
+                <p>
+                    Franco-brasileño criado en Madrid, estudié Diseño Gráfico en Bruselas y un Máster en Diseño Web en Barcelona.
+                </p>
+                <p>
+                    Motivado en mejorar la experiencia de los usuarios, mi objetivo es crear diseños consistentes y atractivos que aporten valor a su negocio.
+                </p>
+                <p>
+                    También me intereso por las diferentes culturas, el arte y las nuevas tecnologías aplicadas a la web.
+                </p>
+                <p>
+                    <strong>¿Trabajamos juntos?</strong></br> Escríbeme, <a href="mailto:cabioch.brice@gmail.com" class="mailto" target="_top">cabioch.brice@gmail.com</a>
+                </p>
+                <a href="/files/CV-Brice-C-Da-Silva.pdf" class="descargar" download>Descarga mi Curriculum Vitae (82kb).</a>
+            </div>
+            <img class="sobremi__image" src="images/brice_mobile.png" alt="Brice picture">
         </div>
-        <img class="sobremi__image" src="images/brice_mobile.png" alt="Brice picture">
-    </div>
+    </section>
     <!-- END SOBRE MI -->
     <!-- SKILLS -->
     <div class="skills">
         <div class="skills--title">
             <p><strong>— Skills</strong></p>
         </div>
-        <div class="skills-list">
-            <ul class="skills--general">
+        <div class="skills-list flexbox__skills">
+            <ul class="skills--general flexbox__skills--item">
+                <p><strong>Diseño</strong></p>
                 <li class="">
-                    User interface
+                    <p>• User Interface</p>
                 </li>
                 <li class="">
-                    User Experience
+                    <p>• User Experience</p>
                 </li>
                 <li class="">
-                    Atomic Design
+                    <p>• Atomic Design</p>
                 </li>
                 <li class="">
-                    Metodología Agile
-                </li>
-            </ul>
-            <ul class="skills--software">
-                <li class="">
-                    Adobe CC
-                </li>
-                <li class="">
-                    Sketch
-                </li>
-                <li class="">
-                    Invision
-                </li>
-                <li class="">
-                    HTML / CSS / SASS / Javascript
-                </li>
-                <li class="">
-                    Gulp / NPM
-                </li>
-                <li class="">
-                    Git
+                    <p>• Metodología Agile</p>
                 </li>
             </ul>
-            <ul class="skills--languages">
+            <ul class="skills--software flexbox__skills--item">
+                <p><strong>Herramientas</strong></p>
                 <li class="">
-                    Español - Nivel avanzado
+                    <p>• Adobe CC</p>
                 </li>
                 <li class="">
-                    Inglés - Nivel intermediario
+                    <p>• Sketch</p>
                 </li>
                 <li class="">
-                    Francés - Nativo
+                    <p>• Invision</p>
                 </li>
                 <li class="">
-                    Portugués - Nativo
+                    <p>• HTML5 / CSS3 / SASS</p>
+                </li>
+                <li class="">
+                    <p>• Javascript</p>
+                </li>
+                <li class="">
+                    <p>• Gulp / NPM</p>
+                </li>
+                <li class="">
+                    <p>• Git</p>
+                </li>
+            </ul>
+            <ul class="skills--languages flexbox__skills--item">
+                <p><strong>Idiomas</strong></p>
+                <li class="">
+                    <p>• Español - <i>Nivel avanzado</i></p>
+                </li>
+                <li class="">
+                    <p>• Inglés - <i>Nivel intermediario</i></p>
+                </li>
+                <li class="">
+                    <p>• Francés - <i>Nativo</i></p>
+                </li>
+                <li class="">
+                    <p>• Portugués - <i>Nativo</i></p>
                 </li>
             </ul>
         </div>

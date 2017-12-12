@@ -1,3 +1,16 @@
+#aboutme{
+    padding: 4.2rem 1.5rem;
+}
+@media screen and (min-width: 768px) {
+    #aboutme{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 992px) {
+    #aboutme{
+        padding: 0;
+    }
+}
 .sobremi{
     margin-bottom: 2.8rem;
     &__image{
