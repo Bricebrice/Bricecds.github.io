@@ -12,13 +12,18 @@
 .carousel{
     &-indicators{
         top: 21rem;
+        margin: 0 auto;
         li{
             border: 0.1rem solid #8B898C;
             margin: 0 0.7rem;
+            width: 1.2rem;
+            height: 1.2rem;
         }
         .active{
             background-color: #8B898C;
             margin: 0 0.7rem;
+            width: 1.2rem;
+            height: 1.2rem;
         }
     }
     &-control{
