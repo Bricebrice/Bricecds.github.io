@@ -1,5 +1,5 @@
-
 var altoBarra = $("header.topnav").height();
+
 
 $('.button').on('click', function(event){
       event.preventDefault();
