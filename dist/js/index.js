@@ -1,6 +1,5 @@
 var altoBarra = $("header.topnav").height();
 
-
 $('.button').on('click', function(event){
       event.preventDefault();
       $('html, body').stop().animate({scrollTop: $('#aboutme').offset().top-altoBarra}, 900);
