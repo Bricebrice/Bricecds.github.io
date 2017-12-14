@@ -1,5 +1,6 @@
 var altoBarra = $("header.topnav").height();
 
+
 $('.button').on('click', function(event){
       event.preventDefault();
       $('html, body').stop().animate({scrollTop: $('#aboutme').offset().top-altoBarra}, 900);
@@ -38,6 +39,8 @@ $('.menu--item--contacto').on('click', function(event){
       $('html, body').stop().animate({scrollTop: $('#aboutme').offset().top-altoBarra}, 900);
       conmutarMenu(true);
 });
+
+$('.carousel').bcSwipe({ threshold: 50 });
 
 /* $(document).ready(function() {
     $('#slide-1').show();
