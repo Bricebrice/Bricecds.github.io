@@ -114,6 +114,9 @@
 @media screen and (min-width: 768px) {
     .navigation{
         text-align: right;
+        &__list {
+            padding: 1.6rem 0;
+        }
     }
     .toggle{
         display: none;
