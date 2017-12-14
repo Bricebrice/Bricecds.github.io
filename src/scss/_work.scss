@@ -65,25 +65,7 @@
         background-size: cover;
         box-shadow: rgba(0, 0, 0, 0.2) 0 0.1rem 0.2rem 0;
         position: relative;
-        height: 21rem;
-        &--01{
-            background-image: url(../images/01_webantigua_mobile.png);
-        }
-        &--02{
-            background-image: url(../images/02_encuestas_mobile.png);
-        }
-        &--03{
-            background-image: url(../images/03_encuesta_mobile.png);
-        }
-        &--03a{
-            background-image: url(../images/03_prototipos_mobile.png);
-        }
-        &--04{
-            background-image: url(../images/04_sketch_mobile.png);
-        }
-        &--05{
-            background-image: url(../images/05_equipo_mobile.png);
-        }
+        height: 100%;
     }
     &--legend{
         font-size: 1.2rem;
@@ -103,25 +85,7 @@
             background: #ffffff;
         }
         &--image{
-            height: 35rem;
-            &--01{
-                background-image: url(../images/01_webantigua_tablet.png);
-            }
-            &--02{
-                background-image: url(../images/02_encuestas_tablet.png);
-            }
-            &--03{
-                background-image: url(../images/03_encuesta_tablet.png);
-            }
-            &--03a{
-                background-image: url(../images/03_prototipos_tablet.png);
-            }
-            &--04{
-                background-image: url(../images/04_sketch_tablet.png);
-            }
-            &--05{
-                background-image: url(../images/05_equipo_tablet.png);
-            }
+            height: 100%;
         }
         &--legend{
             font-size: 1.4rem;
@@ -140,25 +104,7 @@
             background: #ffffff;
         }
         &--image{
-            height: 35rem;
-            &--01{
-                background-image: url(../images/01_webantigua_desktop.png);
-            }
-            &--02{
-                background-image: url(../images/02_encuestas_desktop.png);
-            }
-            &--03{
-                background-image: url(../images/03_encuesta_desktop.png);
-            }
-            &--03a{
-                background-image: url(../images/03_prototipos_desktop.png);
-            }
-            &--04{
-                background-image: url(../images/04_sketch_desktop.png);
-            }
-            &--05{
-                background-image: url(../images/05_equipo_desktop.png);
-            }
+            height: 100%;
         }
     }
     .description__header{
