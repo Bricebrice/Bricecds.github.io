@@ -1,3 +1,9 @@
+.anchor{
+  display: block;
+  height: 5.7rem; /*same height as header*/
+  margin-top: -5.7rem; /*same height as header*/
+  visibility: hidden;
+}
 .topnav{
     height: 5.7rem;
     width: 100%;

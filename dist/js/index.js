@@ -25,18 +25,17 @@ $('.toggle').click(function(evento) {
 
 $('.menu--item--sobremi').on('click', function(event){
       /*event.preventDefault();*/
-      $('html, body').stop().animate({
-          scrollTop: $('#aboutme').offset().top-altoBarra}, 900);
+      $('html, body').stop().animate({scrollTop: $('#aboutme').offset().top-altoBarra}, 900);
       conmutarMenu(true);
 });
 $('.menu--item--proyectos').on('click', function(event){
       /*event.preventDefault();*/
-      $('html, body').stop().animate({scrollTop: $('#projects').offset().top-altoBarra}, 900);
+      $('html, body').stop().animate({scrollTop: $('#projects').offset().top}, 900);
       conmutarMenu(true);
 });
 $('.menu--item--contacto').on('click', function(event){
       /*event.preventDefault();*/
-      $('html, body').stop().animate({scrollTop: $('#aboutme').offset().top-altoBarra}, 900);
+      $('html, body').stop().animate({scrollTop: $('#contact').offset().top}, 900);
       conmutarMenu(true);
 });
 
