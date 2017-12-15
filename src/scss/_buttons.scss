@@ -2,7 +2,7 @@
 .button{
     margin: 2.8rem auto;
     font-family: 'Open Sans', sans-serif;
-    background-color: #50E3C2;
+    background-color: #50e3c2;
     border-bottom: 0.2rem solid #0AC299;
     border-radius: 0.4rem;
     padding: 0.9rem;
@@ -39,6 +39,14 @@
         margin: 3rem 0;
         &--secondary{
             font-size: 1.4rem;
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .button{
+        background-color: rgba(80, 227, 194, 0.8);
+        &:hover{
+            background-color: #50E3C2;
         }
     }
 }
@@ -163,12 +171,77 @@
     text-decoration: underline;
     margin: 0;
     letter-spacing: 0.025rem;
+    color: #3D3B40;
+    &:hover{
+        text-decoration: underline;
+    }
+    &:visited{
+        color: #3D3B40;
+        text-decoration: none;
+    }
 }
 .mailto{
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
-    color: #0AC299;
     text-decoration: underline;
+    color: #0AC299;
     margin: 0;
     letter-spacing: 0.025rem;
+    &:hover{
+        color: #FB5872;
+        text-decoration: underline;
+    }
+    &:visited{
+        color: #FB5872;
+        text-decoration: none;
+    }
+}
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;
+}
+.scroll {
+    position: absolute;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    right: 15px;
+    bottom: 30px;
+    background: #b2b2b2;
+    background: rgba(178,178,178,0.7);
+    padding: 18px 15px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+    color: #fff;
+	font-size:30px;
+	margin-top:-5px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.volver{
+    color: #FB5872;
+    display: inline-block;
 }

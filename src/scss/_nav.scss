@@ -86,6 +86,10 @@
     a{
         text-decoration: none;
     }
+    a:hover,
+    a:active{
+        color: #FB5872;
+    }
     &__item {
         color: black;
         font-family: 'Arial', sans-serif;
