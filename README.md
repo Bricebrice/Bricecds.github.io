@@ -1,2 +1,2 @@
-# bricecds.github.io
-Brice C. Da Silva Portfolio
+# brice_personal_web
+My website
