@@ -1,2 +1,2 @@
-# brice_personal_web
-My website
+# Brice's Portfolio
+See my latest works
